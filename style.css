@@ -1,0 +1,288 @@
+*{
+    padding:0 ;
+    margin:0 ;
+   box-sizing: border-box;
+}
+nav{
+    background: rgba(0, 0, 0, 0.80);
+    display: flex;
+    justify-content:space-around;
+    padding : 0px 220px ;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    
+}
+nav>ul>li{
+    list-style-type: none;
+   margin-left: 24.75px;  
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+/*section 1 */
+#product-display{
+    display: flex;
+    padding: 0px 171.67px 49px 171.67px;
+    margin: 8px 34px 0px 34px ;
+}
+.product{
+    padding-left: 40.42px;
+}
+/* banner -1 */
+#banner-section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 90px 266px 0px 266px;
+   
+}
+.new{
+ color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+margin-bottom: 6px;
+}
+#banner-section-1>h2{
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:15px 0px;
+    }
+#banner-section-1>p{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    margin-bottom:16.5px ;
+}
+
+
+#banner-section-1>div>button{
+color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+font-family: SF Pro Text;
+border-radius: 50px;
+background: #0071E3;
+border: none;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+
+}
+#banner-section-1>div>a{
+   padding-left: 28px;
+   text-decoration: none;
+   color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400; 
+}
+#poster-1{
+    margin-top: 20px;
+}
+/*banner section -2*/
+#banner-section-2{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    padding:110px 266px 0px 266px;
+}
+#banner-section-2>h2{
+    margin:13.5px 0px 24px 0px ;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#banner-section-2>p{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    margin-bottom:16.5px ;
+}
+#banner-section-2>div>button{
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: SF Pro Text;
+    border-radius: 50px;
+    background: #0071E3;
+    border: none;
+    width: 61.203px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    
+    }
+    #banner-section-2>div>a{
+       padding-left: 28px;
+       text-decoration: none;
+       color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400; 
+    }
+    #poster-2{
+        margin-top: 20px;
+    }
+/*section-3*/
+#banner-section-3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+bottom: 7px;
+}
+#banner-section-3>img{
+position: relative;
+right :150px;
+}
+
+#div-3>img{
+    padding:8px 267px 0px 267px ;
+}
+#div-3>h2{
+
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#div-3>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin:25px 0px;
+
+
+}
+#div-3>div{
+    padding:0px 212.05px;
+}
+#div-3>div>button{
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: SF Pro Text;
+    border-radius: 50px;
+    background: #0071E3;
+    border: none;
+    width: 61.203px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+}
+#div-3>div>a{
+    padding-left: 28px;
+   text-decoration: none;
+   color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400; 
+
+}
+/* section -4 */
+#banner-section-4{
+    background-image: url(../Apple/image/banner-4.png);
+}
+/*#banner-section-4 {
+    position: relative;
+  
+}
+#banner-section-4>img{
+    position: relative;
+    left:50px;
+}
+#guided-tour{
+    position: absolute;
+    top:300px;
+    left : 260px;
+   
+
+}
+#guided-tour>p{
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% 
+    letter-spacing: 0.216px;
+    margin-bottom: 7px;
+}
+#guided-tour>div{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 21px;
+}
+#guided-tour>a{
+width: 142.234px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+border-radius: 980px;
+background: #FFF;
+color:#000000;
+text-decoration: none;
+
+}*/
+
