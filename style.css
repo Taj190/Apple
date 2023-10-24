@@ -239,10 +239,7 @@ font-weight: 400;
 
 }
 /* section -4 */
-#banner-section-4{
-    background-image: url(../Apple/image/banner-4.png);
-}
-/*#banner-section-4 {
+#banner-section-4 {
     position: relative;
   
 }
@@ -254,8 +251,6 @@ font-weight: 400;
     position: absolute;
     top:300px;
     left : 260px;
-   
-
 }
 #guided-tour>p{
     color: #FFF;
@@ -263,7 +258,7 @@ font-weight: 400;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 116.667% 
+    line-height: 28px;  
     letter-spacing: 0.216px;
     margin-bottom: 7px;
 }
@@ -284,5 +279,5 @@ background: #FFF;
 color:#000000;
 text-decoration: none;
 
-}*/
+}
 
