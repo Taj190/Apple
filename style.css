@@ -26,7 +26,7 @@ nav>ul>li>a{
 #product-display{
     display: flex;
     padding: 0px 171.67px 49px 171.67px;
-    margin: 8px 34px 0px 34px ;
+    
 }
 .product{
     padding-left: 40.42px;
@@ -244,9 +244,9 @@ font-weight: 400;
   
 }
 #banner-section-4>img{
-    position: relative;
-    left:50px;
+    margin-left: 50px;
 }
+
 #guided-tour{
     position: absolute;
     top:300px;
@@ -280,4 +280,1128 @@ color:#000000;
 text-decoration: none;
 
 }
+/* table started */
+table {
+    margin: 119px auto 0px auto; 
+    width: calc(100% - 266px); 
+    
+}
+th {
+    padding-bottom: 60px;
+    color: #1D1D1F;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.phone {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+.p-new{
+    color: #BF4800;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+letter-spacing: -0.12px;
+}
+.phone-feature{
+    margin-top: 30px;
+}
+.phone-feature>img{
+    padding: 10px 10px;
+}
+.phone-feature>h6{
+    margin-bottom: 5px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+.camera-feature  p {
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.859% */
+letter-spacing: -0.224px;
+}
+/* between class has been used to give margin between line under icon in the table*/
+.between{
+    margin-bottom: 10px;
+}
+
+.phone-price{
+ margin-top: 20px;
+}
+.phone-price>p{
+    color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.859% */
+letter-spacing: -0.224px;
+}
+
+.phone-price>button{
+    margin:10px 0px;
+    border-radius: 980px;
+background: #0071E3;
+width: 45px;
+height: 24px;
+padding: 5px 11.784px 5px 11.969px;
+color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+border: none;
+}
+.phone-price>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.table-footer {
+    text-align: center; 
+    padding: 10px 20px 100px 20px; 
+    
+}
+
+.table-footer a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+hr{
+    margin: 50px;
+}
+
+#giant{
+    background-color: #D2D2D7;
+    
+}
+#wow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #01012A;
+    margin:30px 30px 10px 36px ;
+    
+    
+}
+#give-wow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: #01012A;
+   margin: 0px 100px;
+}
+#give-wow>h2{
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.009px; /* 111.121% */
+    letter-spacing: -0.27px;
+}
+#give-wow>a{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+/*Ways to Buy iPhone*/
+#Ways-to-Buy-iPhone{color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: -0.28px;
+    margin:106px 0px 70px 0px ;
+    
+}
+/*buy-container*/
+#buy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    margin:0px 66px 30px 66px;
+}
+
+#special-deal{
+    margin-top: 85px;
+    margin-bottom: 25px;
+}
+#special-deal>p{
+    color: #1D1D1F;
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+letter-spacing: 0.216px;
+}
+#special-deal>h5{
+    color: #1D1D1F;
+font-family: SF Pro Display;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#credit-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.credit{
+    text-align: center;
+    margin-inline: 30px;
+}
+.credit>p{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#credit-btn{
+    margin: 55px 0px;
+   
+}
+#credit-btn>button{
+    width: 169.797px;
+    height: 56px;
+    padding: 18px 30.6px 18px 31px;
+    border-radius: 980px;
+    background: #0071E3;
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 117.648% */
+    letter-spacing: -0.374px;
+    border: none;
+}
+#shop-help{
+    margin-bottom:60px;
+}
+#shop-help>span{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+#shop-help>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+text-decoration: none;
+}
+/* trading-deal and cashback*/
+#offer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#trade{
+    margin-right: 30px;
+}
+.offer-deal{
+    background: #FFF;
+    display: flex;
+width: 675px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.offer-deal>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+margin: 49px 0px 24px 0px;
+}
+.offer-deal>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin-bottom: 15px;
+}
+.offer-deal>div>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.offer-deal>img{
+    margin-top: 65px;
+    
+}
+#best-place{
+  margin:30px 64px ;
+  position: relative;
+}
+#best-reason{
+    position: absolute;
+    top:134px;
+    left:315px;
+    right:315px;
+    bottom:136px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#best-reason>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 24px;
+letter-spacing: -0.144px;
+}
+#best-reason>p{
+    margin-bottom: 20px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#best-reason>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+/* accessories*/
+#accessories>h5{
+    text-align: center;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+margin-bottom: 65px;
+}
+/*mag-safe*/
+#mag-safe{
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    margin: 0px 66px;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+#wireless-charge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+margin-left: 150px;
+}
+#wireless-charge>h5{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+}
+#wireless-charge>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#wireless-charge>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+#wireless-img{
+   margin-top: 67px ;
+}
+
+/*air tag*/
+#air-tag{
+    margin: 10px 66px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 34.594px;
+    background: #FFF;
+}
+#air-text>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#air-text>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin: 17px 0px;
+}
+#air-text>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin-inline: 10px;
+}
+/*magic-run*/
+#magic-run{
+    
+    margin: 0px 66px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#magic-run>h5{
+margin-top: 15px;
+color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#magic-run>img{
+    width: 1063px;
+height: 498px;
+flex-shrink: 0;
+margin :10px 158px 43px 158px
+
+}
+/*link-shop-accessories*/
+#link-shop-accessories{
+    text-align: center;
+    margin: 45px 0px 80px 0px;
+
+}
+#link-shop-accessories>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32.002px; /* 133.341% */
+letter-spacing: 0.216px;
+text-decoration: none;
+}
+/*info-delivery-installment*/
+#info-delivery-installment{
+    display: flex;
+    flex-direction: row;
+    margin:0px 36px 100px 36px ;
+    justify-content: space-around;
+    text-align: center;
+}
+.info>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.info>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.info>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+/*What makes an iPhone an iPhone? */
+#iphone-secret{
+    margin-bottom: 67px;
+}
+#iphone-secret>h3{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+
+}
+/*ios*/
+#ios{
+    margin:0px 66px 30px 66px ;
+    position: relative;
+}
+#ios-info{
+    position: absolute;
+    top:75px ;
+    left:615px;
+    text-align: center;
+    bottom:380px;
+}
+#ios-info>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#ios-info>p{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    margin:10px 0px ;
+}
+#ios-info>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+#ios>img{
+width: 1380px;
+height: 600px;
+}
+
+/* Switching to iPhone is super simple. */
+#Switching-to-iPhone{
+    display: flex;
+    justify-content: center;
+}
+#Switching-to-iPhone>div{
+    text-align: center;
+    background: #FFF;
+}
+#Switching-to-iPhone>div>h5{
+    margin-top: 55px;
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#Switching-to-iPhone>div>a{
+    margin:15px 0px 27px 0px ;
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#Switching-to-iPhone>div>img{
+    width: 675px;
+height: 357px;
+
+}
+/*Get more out of your iPhone.*/
+#get-more{
+    margin: 90px 0px 67px 0px;
+    text-align: center;
+}
+#get-more>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: -0.28px;
+
+}
+/*apple-services*/
+#apple-services{
+   margin:0px 66px 0px 66px;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#services-icon{
+    margin:150px 40px 80px 40px ;
+}
+#services-info{
+    text-align: center;
+    margin-right: 150px;
+}
+#services-info>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 114.286% */
+letter-spacing: 0.196px;
+margin:30px 0px ;
+}
+#services-info>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+margin-inline: 10px;
+}
+/*apple tv and music*/
+#tv{
+    margin: 30px 66px 0px 66px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#apple-tv-wrap{
+    width: 676px;
+    background: #090A0E;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  padding-bottom: 41px;
+}
+#apple-tv{
+    margin-top:67px ;
+    margin-bottom: 67px;
+}
+#apple-tv>p{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin-bottom: 10px;
+}
+#apple-tv>a{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+margin-inline: 10px;
+
+}
+#swag {
+    position: relative;
+    left:9.2px
+}
+/*to adjust images */
+#tv-images>img{
+    width: 221.372px;
+   height: 135px;
+  
+   }
+   #play{
+   display: flex;
+   flex-direction: row-reverse;
+   margin-bottom: 10px;
+   }
+   #apple-music-wrap{
+    width: 676px;
+    background: #FFF;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 67px;
+    margin-left: 21px;
+   }
+   #apple-music{
+    margin-top: 69px;
+    margin-bottom: 67px;
+   }
+#apple-music>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#apple-music>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+margin-inline: 10px;
+
+}
+
+/*news-arcade*/
+#news-arcade{
+    margin: 30px 66px 30px 66px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#new-plus{
+    position: relative;
+    background-color: #FA3454;
+    width: 675px;
+    margin-right: 18px;
+}
+#lead-news{
+    position: absolute;
+    top:70px;
+    text-align: center;
+    left:162px;
+}
+#lead-news>p{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#lead-news>a{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+margin-inline: 20px;
+}
+#arcade{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 675px;
+}
+#apple-arcade{
+    position: absolute;
+    top:70px;
+    text-align: center;
+    left:179px;
+}
+#apple-arcade>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#apple-arcade>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+margin-inline: 20px;
+}
+
+/*fitness-gift*/
+#fitness-gift{
+    margin:0px 66px 30px 66px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#fitness{
+    background: #F9F9F9;
+    margin-right: 18px;
+    width:675px;
+    text-align: center;
+   
+}
+#fitness>img{
+    margin-top: 48px;
+}
+#fitness>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+
+}
+#fitness>a{
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    text-decoration: none;
+    margin-inline: 15px;
+    
+}
+#fitness-img{
+    margin-top: 40px;
+}
+
+#apple-gift-card{
+    background: #F9F9F9;
+    text-align: center;
+}
+#apple-gift-card>img{
+    margin-top: 48px;
+}
+#apple-gift-card>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin-bottom: 12px;
+}
+#apple-gift-card>a{
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+    text-decoration: none;
+    margin-inline: 15px;  
+}
+#gift-img{
+    margin-top: 65px;
+}
+/*Research-app*/
+#Research-app{
+    margin:0px 66px 0px 66px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#health-research>h5{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+#health-research>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+margin:20px 0px;
+}
+#health-research>a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+#studies{
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+/* footer */
+#text-container{
+    background-color: #F5F5F7;
+    position: relative;
+}
+#text-container>p{
+    text-align: justify; 
+  text-align-last: justify; 
+  margin: 0 auto; 
+ padding-top: 15px;
+  width:1024px ;
+  font-family: SF Pro Text;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+color: #6E6E73;
+white-space: normal;
+}
+#secondtext-container{ 
+  margin: 0 auto; 
+  width:1024px ;
+  font-family: SF Pro Text;
+font-size: 12px;
+font-weight: 400;
+color: #6E6E73;
+white-space: pre;
+}
+#icon-apple{
+    
+    margin: 0px 235px;
+  position: absolute;
+   bottom: 50px ;
+   left:10px;
+   
+}
+#icon-apple>span{
+    position: absolute;
+    top:38px ;
+    left:30px;
+}
+/*footer */
+footer{
+    background-color: #F5F5F7;
+}
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.list-dec>ul{
+    list-style: none;
+    margin-inline: 55px;
+}
+.list-dec>ul>li{
+    padding-top: 7px;
+    color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+}
+.in-beteen{
+    margin-top: 15px;
+}
+.footer {
+    padding: 10px 0;
+    margin: 0px 210px; 
+  }
+  .footer>p{
+    border-bottom:0.1px solid #424245;
+    color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+padding-bottom: 10px;
+  }
+  .footer>p>a{
+    color: #06C;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+text-decoration: none;
+  }
+  .footer>span{
+    padding-top: 10pz;
+    color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+  }
+  .footer>span:nth-child(8){
+    float: right;
+  }
+  .footer span:not(:first-child):not(:last-child) {
+    margin: 0 8px;
+  }
+  
+
+
 
