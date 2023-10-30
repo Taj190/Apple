@@ -3,25 +3,249 @@
     margin:0 ;
    box-sizing: border-box;
 }
-nav{
+/* Common styles for desktop and mobile */
+nav {
     background: rgba(0, 0, 0, 0.80);
     display: flex;
-    justify-content:space-around;
-    padding : 0px 220px ;
+    justify-content: space-around;
+    padding: 0px 220px;
     align-items: center;
-}
-nav>ul{
+  }
+  
+  nav > ul {
     display: flex;
-    
-}
-nav>ul>li{
+  }
+  
+  nav > ul > li {
     list-style-type: none;
-   margin-left: 24.75px;  
-}
-nav>ul>li>a{
+    margin-left: 24.75px;
+  }
+  
+  nav > ul > li > a {
     text-decoration: none;
     color: white;
-}
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 425px) {
+    nav {
+      background: rgba(20, 19, 19, 0.8);
+      flex-direction: column;
+      text-align: center;
+      width:420vw ;
+      
+    }
+    
+    nav > ul {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 190px;
+    }
+    nav>img{
+        margin-right: 190px;
+       width: 5%;
+    }
+    nav>div>img{
+        display: none; 
+    }
+  
+    nav > ul > li {
+      font-size: 30px;
+      margin: 10px;
+    }
+    /*nav-bar ends*/
+
+    /*product -list*/
+    #product-display{
+     padding-left: 0px !important;
+    }
+    .product{
+        padding-left: 0px;
+        margin-inline:13px;
+        font-size: 22px;
+    }
+    /*poster -1 start */
+   
+    #banner-section-1{
+        width:424vw ;
+       text-align: center;
+       padding:0px !important ;
+       
+    }
+    /* poster - 2 */
+    #banner-section-2{
+        width:424vw ;
+       text-align: center;
+       padding:0px !important ;
+    }
+    #banner-section-3{
+        width:424vw ;
+       text-align: center;
+       padding:0px !important ;
+    }
+    #banner-section-4{
+        width:424vw ;
+       text-align: center;
+       padding:0px !important ;
+       margin:0px !important;
+       width:424px;
+    }
+    #banner-section-4>img{
+        width:450%;
+    }
+    .new{
+        font-size: 28px !important;
+    }
+    table{
+        width:400% !important;
+        margin: auto !important;
+        
+    }
+    #giant{
+        width:424vw;
+    }
+
+    #wow{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    #wow-img>img{
+        width:100% ;
+        height:100%;
+    }
+    #credit-card{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #buy-container{
+        width:330vw;
+        margin-left: 200px !important;
+    }
+    .credit>p{
+      font-size: 24px !important;
+    }
+   
+    #offer-container{
+        width:424vw;
+    }
+
+    #best-place{
+        margin-left:140px !important;
+    }
+
+    #mag-safe{
+      display: flex !important;
+      flex-direction: column !important;
+      width: 325vw;
+      margin-left: 208px !important;
+    
+      
+    }
+    #mag-safe  p{
+        line-height: 45px !important;
+        font-size: 45px !important;
+        color: rgba(2, 209, 228, 0.956) !important;
+    }
+   
+
+    #air-tag{
+        display: flex !important;
+      flex-direction: column !important;
+      width: 325vw;
+      margin-left: 208px !important;
+    }
+    #air-tag p{
+       line-height: 45px !important;
+        font-size: 45px !important;
+        color: rgba(248, 26, 81, 0.956) !important;
+    }
+    #magic-run{
+        width:325vw ;
+        margin-left: 208px !important;
+    }
+    #link-shop-accessories>a{
+        font-size: 48px !important;
+    }
+
+    #info-delivery-installment{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 325vw;
+        margin-left: 208px !important;
+
+    }
+    .info{
+        margin-top: 50px;
+    }
+    .info p{
+      font-size: 30px !important;
+      line-height: 30px !important;
+    
+    }
+    .info h5{
+        font-size: 40px !important;
+        margin-bottom: 10px;
+    }
+    .info a{
+        font-size: 24px !important;
+    }
+
+    #ios{
+        margin-left: 208px !important;
+    }
+    #apple-services{
+       
+        width:360vw;
+        margin-left: 130px !important;
+       
+    }
+    #tv{
+        width: 424vw;
+        margin-left: 130px !important;
+    }
+    #apple-tv-wrap{
+        margin-right: 45px !important;
+    }
+
+    #news-arcade{
+        width: 354vw;
+        margin-left: 130px !important;
+    }
+    #new-plus{
+        margin-right: 75px !important;  
+    }
+    #fitness-gift{
+        width: 354vw;
+        margin-left: 110px !important;
+    }
+    #fitness{
+        margin-right: 85px !important;
+       
+    }
+    #Research-app{
+        margin-left: 150px !important;
+        width: 335vw;
+    }
+    #text-container{
+        width:424vw ;
+        padding-top: 30px;
+    }
+    #icon-apple{
+        display: none;
+    }
+
+    footer{
+        width:424vw ;
+        
+    }
+    .list-dec>ul>li{
+        font-size: 20px !important;
+    }
+    
+  }
+  
+
 /*section 1 */
 #product-display{
     display: flex;
